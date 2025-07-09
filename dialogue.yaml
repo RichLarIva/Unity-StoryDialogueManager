@@ -1,0 +1,68 @@
+days:
+  - day: 1
+    scenes:
+      - id: intro_grandpa_player
+        type: Greeting
+        variants:
+          - lines:
+              - speaker: Grandpa
+                text: "You finally woke up, huh?"
+              - speaker: Player
+                text: "What time is it?"
+              - speaker: Grandpa
+                text: "Time to stop wasting daylight. Come help me with the engine."
+          - lines:
+              - speaker: Grandpa
+                text: "There you are. I thought you bailed on me."
+              - speaker: Player
+                text: "Still here, unfortunately."
+              - speaker: Grandpa
+                text: "Then grab a wrench and prove it."
+
+      - id: shopkeeper_first_meet
+        type: StoreTalk
+        variants:
+          - lines:
+              - speaker: Shopkeeper
+                text: "New face in town, huh?"
+              - speaker: Player
+                text: "Yeah, just arrived."
+              - speaker: Shopkeeper
+                text: "Don't break anything. Or do. I need the business."
+
+  - day: 2
+    scenes:
+      - id: morning_convo
+        type: Greeting
+        variants:
+          - lines:
+              - speaker: Grandpa
+                text: "We need gas. Did you fill the can yesterday?"
+              - speaker: Player
+                text: "I forgot..."
+              - speaker: Grandpa
+                text: "Of course you did."
+
+      - id: shopkeeper_rant
+        type: StoreTalk
+        variants:
+          - lines:
+              - speaker: Shopkeeper
+                text: "Someone stole my apples last night."
+              - speaker: Player
+                text: "Wasn't me."
+              - speaker: Shopkeeper
+                text: "Didn't say it was. Just sayin', don't touch my apples."
+
+  - day: 3
+    scenes:
+      - id: fishing_quest_start
+        type: QuestStart
+        variants:
+          - lines:
+              - speaker: Grandpa
+                text: "Head down to the lake, catch me some perch."
+              - speaker: Player
+                text: "You want me to fish for you?"
+              - speaker: Grandpa
+                text: "Consider it survival training. And dinner."
